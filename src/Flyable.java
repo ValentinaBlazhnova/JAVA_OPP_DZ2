@@ -1,3 +1,3 @@
-public interface Flyable {
+public interface Flyable { //Скорость полёта
     int flySpeed();
 }

@@ -1,11 +1,11 @@
-public class Bat extends Predator implements Flyable{
+public class Bat extends Predator implements Flyable{ //Летучая мышь
     public Bat(String name) {
         super(name);
     }
 
     @Override
     public String feed (){
-        return "Насекомые";
+        return "Insects"; //Насекомые
     }
     @Override
     public String speak() {

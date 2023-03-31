@@ -1,4 +1,4 @@
-public class Platypus extends Mammal implements Walkable{
+public class Platypus extends Mammal implements Walkable{ //implements  реализация интерфейса
     public Platypus(String name) {
         super(name);
     }
@@ -10,7 +10,7 @@ public class Platypus extends Mammal implements Walkable{
 
     @Override
     public String feed() {
-        return "Рыба, трава";
+        return "Fish, grass";
     }
 
     @Override

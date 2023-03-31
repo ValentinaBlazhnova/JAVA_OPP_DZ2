@@ -1,11 +1,11 @@
-public class Cow extends Herbivore implements Walkable{
+public class Cow extends Herbivore implements Walkable{ //implements  реализация интерфейса
     public Cow(String name) {
         super(name);
     }
 
     @Override
     public String speak() {
-        return "Мууу";
+        return "Myy";
     }
 
     @Override

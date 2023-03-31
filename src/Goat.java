@@ -1,11 +1,11 @@
-public class Goat extends Herbivore implements Walkable{
-    public Goat(String name) {
+public class Goat extends Herbivore implements Walkable{ //Класс коза
+    public Goat(String name) { //Конструктор создаёт экземпляр класса
         super(name);
     }
 
     @Override
     public String speak() {
-        return "Бее-е";
+        return "Bee";
     }
 
     @Override

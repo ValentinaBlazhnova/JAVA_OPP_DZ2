@@ -1,3 +1,3 @@
-public interface Walkable {
+public interface Walkable { //Скорость бега
     int runSpeed();
 }

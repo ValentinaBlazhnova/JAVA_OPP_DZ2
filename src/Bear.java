@@ -9,7 +9,7 @@ public class Bear extends Predator implements Walkable{
 
     @Override
     public String speak() {
-        return "РРРЪ";
+        return "RRR";
     }
 
     @Override

@@ -1,11 +1,11 @@
-public abstract class Herbivore extends Mammal{
+public abstract class Herbivore extends Mammal{ //Травоядные
 
     public Herbivore(String name) {
         super(name);
     }
     @Override
     public String feed (){
-        return "Трава";
+        return "Grass"; //трава
     }
 
 }

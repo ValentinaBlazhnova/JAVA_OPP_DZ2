@@ -1,6 +1,6 @@
-public abstract class Mammal extends Animal {
+public abstract class Mammal extends Animal { //Млекопитающие
 
-    public Mammal(String name) {
+    public Mammal(String name) { //Конструктор
         super(name);
     }
 }

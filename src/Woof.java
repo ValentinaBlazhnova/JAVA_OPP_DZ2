@@ -5,7 +5,7 @@ public class Woof extends Predator implements Walkable{
 
     @Override
     public String speak() {
-        return "Уууррр";
+        return "Ayyy";
     }
 
     @Override
